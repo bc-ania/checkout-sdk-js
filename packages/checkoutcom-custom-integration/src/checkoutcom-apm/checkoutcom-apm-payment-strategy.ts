@@ -9,7 +9,7 @@ import {
 import { WithDocumentInstrument } from '../checkoutcom';
 import CheckoutComCustomPaymentStrategy from '../checkoutcom-custom-payment-strategy';
 
-const DOCUMENT_SUPPORTED_APMS = ['boleto', 'oxxo', 'qpay', 'ideal'];
+const DOCUMENT_SUPPORTED_APMS = ['boleto', 'oxxo', 'qpay'];
 
 export default class CheckoutComAPMPaymentStrategy extends CheckoutComCustomPaymentStrategy {
     protected async _executeWithoutHostedForm(

@@ -5,8 +5,6 @@ export { default as CheckoutComCreditCardPaymentStrategy } from './checkoutcom-c
 export { default as createCheckoutComSepaPaymentStrategy } from './checkoutcom-sepa/create-checkoutcom-sepa-payment-strategy';
 export { default as CheckoutComCustomSepaPaymentStrategy } from './checkoutcom-sepa/checkoutcom-sepa-payment-strategy';
 export { default as CheckoutComCustomPaymentStrategy } from './checkoutcom-custom-payment-strategy';
-export { default as CheckoutComIdealPaymentStrategy } from './checkoutcom-ideal/checkoutcom-ideal-payment-strategy';
-export { default as createCheckoutComIdealPaymentStrategy } from './checkoutcom-ideal/create-checkoutcom-ideal-payment-strategy';
 export { default as createCheckoutComAPMPaymentStrategy } from './checkoutcom-apm/create-checkoutcom-apm-payment-strategy';
 export { default as CheckoutComAPMPaymentStrategy } from './checkoutcom-apm/checkoutcom-apm-payment-strategy';
 export * from './checkoutcom';
